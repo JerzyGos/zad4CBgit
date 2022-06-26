@@ -60,12 +60,28 @@ tuple<int, int, float, long> makeComparison(fstream &file_A, fstream &file_B){
 
 
 
-int main() {
+int main(int argc, char** argv){
 
-    // test github  wersja 4
+    createLog("*** Application start ****");
 
+    if(argc != 3) {
+        createLog("Provided wrong number of arguments (" + to_string(argc-1) + ") - required: 2.");
+        createLog("*** APP stop");
+       cout<<("Provided wrong number of arguments (" + to_string(argc-1) + ") - required: 2.");
+        return 0;
+    }
 
-  cout << "Hello World!";
+    fstream file_A, file_B;
+    file_A.open(argv[1]);
+    file_B.open(argv[2]);
+    if(!file_A.is_open() || !file_B.is_open()){
+        createLog("Could not open at least one of provided files.");
+        createLog("*** Application start  *********");
+        return 0;
+    } else {
+        createLog((string) "Opened two files: (1) " + argv[1] + " (2) " + argv[2]);
+    }
+
 
 
 
