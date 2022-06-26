@@ -1,0 +1,7 @@
+
+Sun Jun 26 22:35:30 2022 : *** Application start ****
+Sun Jun 26 22:35:30 2022 : Provided wrong number of arguments (0) - required: 2.
+Sun Jun 26 22:35:30 2022 : *** APP stop
+Sun Jun 26 22:37:07 2022 : *** Application start ****
+Sun Jun 26 22:37:07 2022 : Provided wrong number of arguments (0) - required: 2.
+Sun Jun 26 22:37:07 2022 : *** APP stop

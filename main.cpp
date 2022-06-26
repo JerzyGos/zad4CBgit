@@ -76,11 +76,29 @@ int main(int argc, char** argv){
     file_B.open(argv[2]);
     if(!file_A.is_open() || !file_B.is_open()){
         createLog("Could not open at least one of provided files.");
-        createLog("*** Application start  *********");
+        createLog("*** Application stop  *********");
         return 0;
     } else {
         createLog((string) "Opened two files: (1) " + argv[1] + " (2) " + argv[2]);
     }
+
+
+ tuple<int, int, float, long> results = makeComparison(file_A, file_B);
+
+    string resultMsg = "*** RESULTS Compared bits: " + to_string(get<0>(results)) +
+                        "; Different bits: " + to_string(get<1>(results)) +
+                        "; BER: " + to_string(get<2>(results)) + "%" +
+                        "; Time: " + to_string(get<3>(results)) + " ms";
+    createLog(resultMsg);
+    cout << resultMsg << endl;
+
+    file_A.close();
+    createLog((string) "File " + argv[1] + " closed.");
+    file_B.close();
+    createLog((string) "File " + argv[2] + " closed.");
+
+    createLog("*** Application  stop **********");
+
 
 
 
