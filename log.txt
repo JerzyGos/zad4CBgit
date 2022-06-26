@@ -8,3 +8,11 @@ Sun Jun 26 22:37:07 2022 : *** APP stop
 Mon Jun 27 00:05:38 2022 : *** Application start ****
 Mon Jun 27 00:05:38 2022 : Provided wrong number of arguments (0) - required: 2.
 Mon Jun 27 00:05:38 2022 : *** APP stop
+Mon Jun 27 00:09:21 2022 : *** Application start ****
+Mon Jun 27 00:09:21 2022 : Opened two files: (1) plik1a (2) plik1b
+Mon Jun 27 00:09:21 2022 : Analyzing bits sequences... [clock start]
+Mon Jun 27 00:09:21 2022 : Analysis finished. [clock stop]
+Mon Jun 27 00:09:21 2022 : *** RESULTS Compared bits: 78648; Different bits: 48189; BER: 59.574966%; Time: 4 ms
+Mon Jun 27 00:09:21 2022 : File plik1a closed.
+Mon Jun 27 00:09:21 2022 : File plik1b closed.
+Mon Jun 27 00:09:21 2022 : *** Application  stop **********

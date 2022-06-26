@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1656284720 source:m:\codeblockproj\zad4psizgit\git\main2.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<bitset>
+	<tuple>
+	<chrono>
+
