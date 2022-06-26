@@ -16,3 +16,11 @@ Mon Jun 27 00:09:21 2022 : *** RESULTS Compared bits: 78648; Different bits: 481
 Mon Jun 27 00:09:21 2022 : File plik1a closed.
 Mon Jun 27 00:09:21 2022 : File plik1b closed.
 Mon Jun 27 00:09:21 2022 : *** Application  stop **********
+Mon Jun 27 00:13:16 2022 : *** Application start ****
+Mon Jun 27 00:13:16 2022 : Opened two files: (1) plik2a (2) plik2b
+Mon Jun 27 00:13:16 2022 : Analyzing bits sequences... [clock start]
+Mon Jun 27 00:13:16 2022 : Analysis finished. [clock stop]
+Mon Jun 27 00:13:16 2022 : *** RESULTS Compared bits: 48; Different bits: 10; BER: 1.250000%; Time: 0 ms
+Mon Jun 27 00:13:16 2022 : File plik2a closed.
+Mon Jun 27 00:13:16 2022 : File plik2b closed.
+Mon Jun 27 00:13:16 2022 : *** Application  stop **********
